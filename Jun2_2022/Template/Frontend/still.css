@@ -1,0 +1,74 @@
+.divGlavni{
+    display:flex;
+}
+
+.divFilter
+{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+    flex-shrink: 0;
+}
+.divKartica{
+    display:flex;
+    flex-direction: column;
+    margin:5px;
+    border:1px solid black;
+    padding:5px;
+    border-radius: 5px;
+    align-items: center;
+}
+.divUnos{
+    display:flex;
+    
+}
+.divDugmePronadji{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+}
+.dugmePronadji{
+   
+    width: 100%;
+    align-items: center;
+}
+.divZaLabele{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    flex-grow: 1;
+}
+.divZaLabele label{
+    margin:5px;
+}
+.divZaInput{
+    display:flex;
+    flex-direction: column;
+    flex-grow: 3;
+    
+}
+.divZaInput input
+{
+    margin:5px;
+}
+.divZaDostavu{
+    display:flex;
+    flex-wrap:wrap;
+    margin:10px;
+}
+
+.divLabeleDostave
+{
+    display:flex;
+    flex-direction:column;
+    margin:10px;
+    
+}
+
+.divLabeleDostave label{
+    margin:5px;
+}
+.dugmeIsporuci{
+    width:70%;
+}
